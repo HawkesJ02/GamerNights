@@ -6,7 +6,7 @@ import { Player } from "./Models/Players.js"
 
 class AppState extends EventEmitter {
   /**@type import('./Models/Players.js').Player[] */
-  Player = [new Player('kait', 2)];
+  Player = [new Player('Kait Kat')];
 }
 
 export const appState = new Proxy(new AppState(), {
